@@ -83,18 +83,18 @@
 
 
 
-<meta name="description" content="1. 添加百度统计我使用的主题为iissnan的next主题，类似Hexo使用多说教程中给出的，该theme之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：baidu_analytics: your-analytics-id百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。 123456789&amp;lt;script&amp;gt;va">
+<meta name="description" content="1. 添加百度统计Hexo的next主题之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：baidu_analytics: your-analytics-id百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。 123456789&amp;lt;script&amp;gt;var _hmt = _hmt || [];(function() &amp;#">
 <meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="add baidu count analytics">
+<meta property="og:title" content="hexo添加百度统计">
 <meta property="og:url" content="http://yoursite.com/2017/12/31/add-baidu-count-analytics/index.html">
 <meta property="og:site_name" content="十二月的青">
-<meta property="og:description" content="1. 添加百度统计我使用的主题为iissnan的next主题，类似Hexo使用多说教程中给出的，该theme之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：baidu_analytics: your-analytics-id百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。 123456789&amp;lt;script&amp;gt;va">
+<meta property="og:description" content="1. 添加百度统计Hexo的next主题之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：baidu_analytics: your-analytics-id百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。 123456789&amp;lt;script&amp;gt;var _hmt = _hmt || [];(function() &amp;#">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-31T10:47:56.000Z">
+<meta property="og:updated_time" content="2017-12-31T10:51:55.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="add baidu count analytics">
-<meta name="twitter:description" content="1. 添加百度统计我使用的主题为iissnan的next主题，类似Hexo使用多说教程中给出的，该theme之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：baidu_analytics: your-analytics-id百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。 123456789&amp;lt;script&amp;gt;va">
+<meta name="twitter:title" content="hexo添加百度统计">
+<meta name="twitter:description" content="1. 添加百度统计Hexo的next主题之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：baidu_analytics: your-analytics-id百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。 123456789&amp;lt;script&amp;gt;var _hmt = _hmt || [];(function() &amp;#">
 
 
 
@@ -130,7 +130,7 @@
 
 
 
-  <title>add baidu count analytics | 十二月的青</title>
+  <title>hexo添加百度统计 | 十二月的青</title>
   
 
 
@@ -294,7 +294,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">add baidu count analytics</h2>
+          <h2 class="post-title" itemprop="name headline">hexo添加百度统计</h2>
         
 
         <div class="post-meta">
@@ -354,7 +354,7 @@
       
 
       
-        <h2 id="1-添加百度统计"><a href="#1-添加百度统计" class="headerlink" title="1. 添加百度统计"></a>1. 添加百度统计</h2><p>我使用的主题为iissnan的next主题，类似Hexo使用多说教程中给出的，该theme之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：<br>baidu_analytics: your-analytics-id<br>百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。</p>
+        <h2 id="1-添加百度统计"><a href="#1-添加百度统计" class="headerlink" title="1. 添加百度统计"></a>1. 添加百度统计</h2><p>Hexo的next主题之中已经有了google统计，百度统计的支持。只需要修改站点的_config.yml中语句：baidu_analytics: your-analytics-id<br>百度统计注册之后，添加站点，并得到指示——将如下代码添加至网站全部页面的标签前。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;script&gt;</span><br><span class="line"><span class="keyword">var</span> _hmt = _hmt || [];</span><br><span class="line">(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">var</span> hm = <span class="built_in">document</span>.createElement(<span class="string">"script"</span>);</span><br><span class="line">  hm.src = <span class="string">"//hm.baidu.com/hm.js?my-id"</span>;</span><br><span class="line">  <span class="keyword">var</span> s = <span class="built_in">document</span>.getElementsByTagName(<span class="string">"script"</span>)[<span class="number">0</span>];</span><br><span class="line">  s.parentNode.insertBefore(hm, s);</span><br><span class="line">&#125;)();</span><br><span class="line">&lt;<span class="regexp">/script&gt;</span></span><br></pre></td></tr></table></figure>
 <p>只需将“my-id”作为your-analytics-id添加到_config.yml配置中即可。在重新generate的html页面中，很容易查找到上面这一段js代码。</p>
 
@@ -426,7 +426,7 @@
   
     <div class="comments" id="comments">
       <div class="ds-thread" data-thread-key="2017/12/31/add-baidu-count-analytics/"
-           data-title="add baidu count analytics" data-url="http://yoursite.com/2017/12/31/add-baidu-count-analytics/">
+           data-title="hexo添加百度统计" data-url="http://yoursite.com/2017/12/31/add-baidu-count-analytics/">
       </div>
     </div>
   
