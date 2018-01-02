@@ -2,16 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://keyeqing.com/baidu_verify_9lxj0pVRPD.html</loc>
+    <loc>http://keyeqing.com/tags/index.html</loc>
     
-    <lastmod>2018-01-02T13:55:13.000Z</lastmod>
+    <lastmod>2018-01-02T14:44:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keyeqing.com/categories/index.html</loc>
+    
+    <lastmod>2018-01-02T14:43:32.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://keyeqing.com/about/index.html</loc>
     
-    <lastmod>2018-01-02T12:25:41.000Z</lastmod>
+    <lastmod>2018-01-02T14:41:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://keyeqing.com/baidu_verify_9lxj0pVRPD.html</loc>
+    
+    <lastmod>2018-01-02T13:55:13.000Z</lastmod>
     
   </url>
   
@@ -40,20 +54,6 @@
     <loc>http://keyeqing.com/add-baidu-count-analytics/</loc>
     
     <lastmod>2017-12-31T10:52:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keyeqing.com/categories/index.html</loc>
-    
-    <lastmod>2017-12-31T10:30:22.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://keyeqing.com/tags/index.html</loc>
-    
-    <lastmod>2017-12-31T03:28:03.000Z</lastmod>
     
   </url>
   
