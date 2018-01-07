@@ -361,6 +361,12 @@
           
             <h3 id="安装hexo-admin插件"><a href="#安装hexo-admin插件" class="headerlink" title="安装hexo-admin插件"></a>安装hexo-admin插件</h3><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-admin</span><br><span class="line">hexo server -d</span><br><span class="line">open http://localhost:4000/admin/</span><br></pre></td></tr></table></figure>
 <h3 id="修改用户名和密码"><a href="#修改用户名和密码" class="headerlink" title="修改用户名和密码"></a>修改用户名和密码</h3><p>浏览器打开<a href="http://localhost:4000/admin/后，点击settings按照要求修改_config.yml文件。" target="_blank" rel="noopener">http://localhost:4000/admin/后，点击settings按照要求修改_config.yml文件。</a></p>
+<h3 id="增加deploy的脚本"><a href="#增加deploy的脚本" class="headerlink" title="增加deploy的脚本"></a>增加deploy的脚本</h3><p>在project目录下增加deploy.sh:<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env sh</span></span><br><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></p>
+<p>在_config.yml添加如下配置：<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">admin:</span><br><span class="line">  deployCommand: <span class="string">'./hexo-deploy.sh'</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="发布文章"><a href="#发布文章" class="headerlink" title="发布文章"></a>发布文章</h3><p><img src="/images/pasted-0.png" alt="upload successful"></p>
+<p>1.点击posts菜单编写文章，这时自动保存在_drafts文件夹下</p>
+<p>2.完成后，点击publish，这时保存在_posts文件夹下</p>
+<p>3.点击Deploy菜单，进行重新部署</p>
 
           
         
